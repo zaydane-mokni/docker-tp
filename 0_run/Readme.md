@@ -28,7 +28,7 @@ And I want, with that same command, for the container to be **deleted**.
 ### Answer here :
 
 ```bash
-# HERE
+docker container run --rm docker/whalesay cowsay Hello M1 III
 ```
 
 ---
@@ -45,5 +45,5 @@ And I want, with that same command, for the container to be **deleted** when I'm
 ### Answer here :
 
 ```bash
-# HERE
+docker container run -it --rm python:3
 ```
